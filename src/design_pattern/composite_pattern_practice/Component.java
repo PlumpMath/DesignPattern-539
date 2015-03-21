@@ -1,4 +1,4 @@
-package composite_pattern_practice;
+package design_pattern.composite_pattern_practice;
 
 /**
  * Created by Nianzu on 3/21/2015.

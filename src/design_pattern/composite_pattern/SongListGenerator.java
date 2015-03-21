@@ -1,4 +1,4 @@
-package composite_pattern;
+package design_pattern.composite_pattern;
 
 public class SongListGenerator {
 
