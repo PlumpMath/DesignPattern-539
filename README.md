@@ -10,7 +10,7 @@ I use three resources:
 
 2. [YouTube Design Pattern Tutorial](https://www.youtube.com/watch?v=vNHpsC5ng_E&list=PLF206E906175C7E07) Derek Banas  
 [<img src="http://www.newthinktank.com/wp-content/uploads/2012/08/Design-Patterns.png">](http://www.newthinktank.com/2012/08/design-patterns-video-tutorial/)
-3. [Head First Design Patterns](http://www.amazon.com/dp/0596007124//ref=cm_sw_su_dp?tag=nethta-20)  
+3. [Head First Design Patterns](http://www.amazon.com/dp/0596007124//ref=cm_sw_su_dp?tag=nethta-20)    
 >This is a gimmicky book that actually works for once. It is an intelligent and well thought-out discussion of Java design patterns, and if you dont know what a design pattern is then this is an excellent way to find out. It is also an interested discussion of object-oriented design. I found that the authors often anticipated my reaction to their initial explanations and asked the questions that I would have asked had it been a lecture. - Mike James, VSJ, April 2005
 
 
