@@ -3,10 +3,18 @@ package design_pattern.composite_pattern_practice;
 import java.util.ArrayList;
 import java.util.List;
 import design_pattern.JavaUtils;
+
 /**
  * Created by Nianzu on 3/21/2015.
  */
 public class Composite extends Component{
+
+    public static void main(String[] args) {
+        Composite com = new Composite("root");
+        com.add(new Leaf("new_leaf"));
+
+    }
+
     // set the list to private
     private List<Component> childrenList = new ArrayList<Component>();
 
@@ -26,10 +34,10 @@ public class Composite extends Component{
 
     @Override
     public void display(int depth) {
-        System.out.println(JavaUtils.stringRepeat("-", depth));
+        System.out.println(JavaUtils.stringRepeat("-", depth) + name);
 
-        for (Component component : childrenList){
-            component.display(depth + 2);
+        for (Component child : childrenList){
+            child.display(depth + 2);
         }
     }
 }

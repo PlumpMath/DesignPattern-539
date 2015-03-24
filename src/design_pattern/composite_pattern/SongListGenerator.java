@@ -40,6 +40,11 @@ public class SongListGenerator {
         heavyMetalMusic.add(new Song("War Pigs", "Black Sabath", 1970));
         heavyMetalMusic.add(new Song("Ace of Spades", "Motorhead", 1980));
 
+        // test throw **UnsupportedOperationException**
+        //Song testSong = new Song("test Song", "test Band", 2015);
+        //Song testSong2 = new Song("test Song 2", "test Band 2", 2015);
+        //testSong.add(testSong2);  // this will report **UnsupportedOperationException**
+
         DiscJockey crazyLarry = new DiscJockey(everySong);
 
         crazyLarry.getSongList();
